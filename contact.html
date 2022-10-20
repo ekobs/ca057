@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Css dan Js bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold"
+          ><i class="bi bi-cup-hot">My <span>Cafe</span></i></a
+        >
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid jumbotron pt-5">
+      <div class="row">
+        <div class="col-md-2">
+          <a href="" class="lnk"><i class="bi bi-facebook"></i>Facebook</a>
+        </div>
+        <div class="col-md-2">
+          <a href="" class="lnk wa"><i class="bi bi-whatsapp"></i>Whatsapp</a>
+        </div>
+        <div class="col-md-8">
+          <div class="container pt-5">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+                <input type="email" class="form-control bg-dark text-white" id="exampleInputEmail1" placeholder="masukan email@" aria-describedby="emailHelp" />
+                <div id="emailHelp" class="form-text text-secondary">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+                <input type="password" placeholder="masukan password" class="form-control bg-dark text-white" id="exampleInputPassword1" />
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                <label class="form-check-label text-secondary" for="exampleCheck1">Ingat saya</label>
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-md-2">
+          <a href="" class="lnk tw"><i class="bi bi-twitter text-info"></i>Twitter</a>
+        </div>
+        <div class="col-md-2">
+          <a href="" class="lnk ig"><i class="bi bi-instagram"></i>Instagram</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

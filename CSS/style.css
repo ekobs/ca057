@@ -1,0 +1,77 @@
+.navbar {
+  background: linear-gradient(to right, #0d101c, #3f5f90);
+  color: white;
+}
+.jumbotron {
+  background: linear-gradient(to right, #0d101c, #3f5f90);
+}
+h1 {
+  font-family: "Bitter", serif;
+  color: #f1f1f1;
+  text-align: center;
+}
+h3 {
+  font-family: "Bitter", serif;
+  color: #f1f1f1;
+  text-align: center;
+}
+.img {
+  width: 200px;
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+}
+.conten {
+  background: linear-gradient(to right, #515689, #6697a7);
+}
+.teks {
+  font-size: 15.5px;
+}
+.tombol {
+  display: grid;
+  place-items: center;
+}
+.visi {
+  background: linear-gradient(to right, #0d101c, #3f5f90);
+}
+.vs {
+  color: #f1f1f1;
+}
+.tema {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.card {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ads {
+  background: linear-gradient(to right, #0d101c, #3f5f90);
+}
+.bi-facebook {
+  color: blue;
+}
+.lnk {
+  text-decoration: none;
+}
+.bi-whatsapp {
+  color: greenyellow;
+}
+.wa {
+  color: green;
+}
+.tw {
+  color: lightblue;
+}
+.bi-instagram {
+  color: #c32aa3;
+}
+.ig {
+  color: #7232bd;
+}
+body {
+  background: linear-gradient(to right, #0d101c, #3f5f90);
+}
+span {
+  color: #b28dff;
+}
